@@ -232,6 +232,15 @@ body {
     margin: 20px;
   }
 
+  /*Pricing Section*/
+  #pricing {
+    padding: 6rem 3rem 6rem 3rem;
+  }
+  .pricing-card {
+    padding: 3% 2%;
+    margin: 1rem auto;
+  }
+
   /*CTA section*/
   .cta-title {
     font-size: 300%;
@@ -240,5 +249,6 @@ body {
   .cta-button {
     margin: 3%;
   }
+
 
 }
