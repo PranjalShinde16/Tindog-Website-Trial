@@ -200,9 +200,12 @@ body {
 @media (max-width: 1028px) {
 
   /*Title Section*/
+  #title{
+    text-align: center;
+  }
   .heading{
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
   }
   .title-img {
     position: static;
@@ -211,7 +214,7 @@ body {
     margin: auto;
   }
   .download-btn{
-    margin: 5% 1% 5% 0;
+    margin: 5% auto 5% auto;
   }
 
   /*Testimonial Section*/
