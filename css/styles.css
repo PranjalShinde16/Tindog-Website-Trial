@@ -31,8 +31,7 @@ body {
 }
 
 .nav-item {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
 
 .nav-link {
@@ -42,7 +41,7 @@ body {
 
 /*Download Butons*/
 .download-btn {
-  margin: 5% 3% 5% 0;
+  margin: 5% 2% 5% 0;
 }
 
 /*Title Image*/
@@ -199,6 +198,10 @@ body {
 
 /* Media Query */
 @media (max-width: 1028px) {
+  .heading{
+    text-align: center;
+    font-size: 300%;
+  }
   .title-img {
     position: static;
     transform: rotate(0deg);
@@ -206,6 +209,7 @@ body {
   }
 
   .testi-text {
+    text-align: center;
     font-size: 2rem;
     padding: 7% 7%;
   }
