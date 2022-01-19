@@ -1,0 +1,217 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#title {
+  background-color: #EF4F4F;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+
+.heading {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: white;
+}
+
+/*Navigation Bar*/
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/*Download Butons*/
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+.title-img {
+  width: 23%;
+  height: auto;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+#features {
+  padding: 70px 70px 10px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.mid-tit {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.change-color {
+  color: #8f8f8f;
+}
+
+.midele {
+  padding: 30px 50px;
+  line-height: 2rem;
+}
+
+.fas {
+  color: #EE9595;
+  font-size: 3rem;
+  padding-bottom: 1.3rem;
+}
+
+.fas:hover {
+  color: #EF4F4F;
+}
+
+/*Testitmonial Section*/
+#testimonials {
+  background-color: #ed6d6d;
+  color: white;
+  padding-bottom: 2%;
+}
+
+.testi-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testi-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*Press*/
+#press {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.press-head {
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+#pricing {
+  padding: 100px 150px 100px;
+}
+
+.pricing-text {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+.oneandtwo {
+  line-height: 2.25;
+  padding-top: 20px;
+}
+
+.pricing-button {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ed6d6d;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cta-title {
+  font-weight: 900;
+  padding-bottom: 5%;
+  font-size: 320%;
+  line-height: 1.5;
+}
+
+.apple-logo {
+  font-size: 1.6rem;
+}
+
+.cta-button {
+  margin: 1%;
+}
+
+/* Footer */
+#footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+.footer-image {
+  color: black;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.footer-image:hover {
+  color: grey;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.footer-name:hover {
+  color: white;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+
+  .testi-text {
+    font-size: 2rem;
+    padding: 7% 7%;
+  }
+
+  .testi-img {
+    width: 15%;
+    /* margin: 25px; */
+  }
+}
