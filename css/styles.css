@@ -198,14 +198,20 @@ body {
 
 /* Media Query */
 @media (max-width: 1028px) {
+
+  /*Title Section*/
   .heading{
     text-align: center;
-    font-size: 300%;
+    font-size: 200%;
   }
   .title-img {
     position: static;
     transform: rotate(0deg);
     width: 60%;
+    margin: auto;
+  }
+  .download-btn{
+    margin: 5% 1% 5% 0;
   }
 
   .testi-text {
